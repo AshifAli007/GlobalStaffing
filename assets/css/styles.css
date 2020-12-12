@@ -19,7 +19,8 @@
     padding-top: 40vh;
   }
   #landing-header h1 {
-    color: #fff;
+    color: white;
+    font-weight: bolder;
   }
   .slideshow { 
     /* position: fixed; */
@@ -33,6 +34,7 @@
     padding: 0;
   }
   .slideshow li { 
+      /* background-color: black; */
     width: 100%;
     height: 100%;
     position: absolute;
@@ -43,38 +45,34 @@
     background-repeat: no-repeat;
     opacity: 0;
     z-index: 0;
-    animation: imageAnimation 80s linear infinite; 
+    animation: imageAnimation 40s linear infinite; 
   }
   .slideshow li:nth-child(1) { 
-    background-image: url(https://images2.alphacoders.com/695/thumb-1920-695551.jpg) 
+    background-image: url(https://images.unsplash.com/photo-1462556791646-c201b8241a94?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1945&q=80) 
   }
   .slideshow li:nth-child(2) { 
-    background-image: url(https://images.unsplash.com/photo-1455620611406-966ca6889d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=830&q=80);
-    animation-delay: 10s; 
+    background-image: url(https://images.unsplash.com/photo-1474696100102-01b8519f06f3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);
+    animation-delay: 5s; 
   }
   .slideshow li:nth-child(3) { 
-    background-image: url(https://cdn.pixabay.com/photo/2017/04/24/07/01/qutub-minar-2255613_960_720.jpg);
-    animation-delay: 20s; 
+    background-image: url(https://images.unsplash.com/photo-1489410342162-b4b300a0bb15?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80);
+    animation-delay: 10s; 
   }
   .slideshow li:nth-child(4) { 
-    background-image: url(https://images.unsplash.com/photo-1461603950871-cd64bcf7acf0?ixlib=rb-1.2.1&auto=format&fit=crop&w=833&q=80);
-    animation-delay: 30s; 
+    background-image: url(https://images.unsplash.com/photo-1463171379579-3fdfb86d6285?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80);
+    animation-delay: 15s; 
   }
   .slideshow li:nth-child(5) { 
-    background-image: url(https://images.unsplash.com/photo-1463592177119-bab2a00f3ccb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);
-    animation-delay: 40s; 
+    background-image: url(https://images.unsplash.com/photo-1559523182-a284c3fb7cff?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80);
+    animation-delay: 20s; 
   }
   .slideshow li:nth-child(6) { 
-    background-image: url(https://images.unsplash.com/photo-1461237439866-5a557710c921?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=752&q=80);
-    animation-delay: 50s; 
+    background-image: url(https://images.unsplash.com/photo-1507099985932-87a4520ed1d5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);
+    animation-delay: 25s; 
   }
   .slideshow li:nth-child(7) { 
-    background-image: url(https://images.unsplash.com/photo-1517880917162-f95d325da5e8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjF9&auto=format&fit=crop&w=713&q=80);
-    animation-delay: 60s; 
-  }
-  .slideshow li:nth-child(8) { 
-    background-image: url(https://images.unsplash.com/photo-1489993360877-883980cc7333?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);
-    animation-delay: 70s; 
+    background-image: url(https://images.unsplash.com/photo-1563986768609-322da13575f3?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80);
+    animation-delay: 30s; 
   }
   @keyframes imageAnimation { 
     0% { 
