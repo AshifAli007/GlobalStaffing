@@ -97,6 +97,12 @@
       margin-bottom: 30vh;
     }
   }
+  @media only screen and (max-width: 990px) {
+    /* For mobile phones: */
+    .videoContainer{
+      margin-bottom: 40vh;
+    }
+  }
 
 /* - ------------------------------video css -------------------------------------------- */
 
