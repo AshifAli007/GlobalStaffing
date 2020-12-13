@@ -103,22 +103,65 @@
       margin-bottom: 40vh;
     }
   }
+ 
 
 /* - ------------------------------video css -------------------------------------------- */
 
 /* <!-- -----------------------------------servics carousal code here------------------------------------------------- --> */
 
-/* .owl-item > div {
-    cursor: pointer;
-    margin: 6% 8%;
-    transition: margin 0.4s ease;
-  }
-  .owl-item.center > div {
-    cursor: auto;
-    margin: 0;
-  }
-  .owl-item:not(.center) > div:hover {
-    opacity: .75;
-  } */
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body { font-family: sans-serif; }
+
+.gallery {
+  background: #EEE;
+}
+
+.gallery-cell {
+  width: 15%;
+  height: 200px;
+  margin-right: 10px;
+  /* counter-increment: gallery-cell; */
+}
+
+/* cell number */
+.gallery-cell:before {
+  display: block;
+  text-align: center;
+  /* content: counter(gallery-cell); */
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
+.gallery-cell img{
+    width: 50%;
+    margin-left: auto;
+    text-align: center;
+    display: block;
+    margin-right: auto;
+    margin-top: 15%;
+    margin-bottom: auto;
+}
+.changebg{
+      background-color:#aee6e6;
+}
+
+@media only screen and ( max-width: 1250px ) {
+  /* half-width cells for larger devices */
+  .gallery-cell { width: 20%; }
+}
+@media only screen and ( max-width: 1000px ) {
+  /* half-width cells for larger devices */
+  .gallery-cell { width: 25%; }
+}
+@media only screen and ( max-width: 600px ) {
+  /* half-width cells for larger devices */
+  .gallery-cell { width: 40%;}
+}
+
 
 /* <!-- -----------------------------------servics carousal code end here-------------------------------------------------  */

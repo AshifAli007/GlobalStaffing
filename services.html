@@ -42,6 +42,12 @@
     <link rel="stylesheet" href="assets/css/Social-Icons.css">
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <style>
+        /* external css: flickity.css */
+
+    </style>
 </head>
 
 <body style="margin-bottom: 0px;">
@@ -60,23 +66,25 @@
 </nav>
 <img class="img-fluid d-flex" src="assets/img/sean-pollock-PhYq704ffdA-unsplash.jpg" style="width: 100%;">
 <!-- -----------------------------------servics carousal code here------------------------------------------------- -->
-<h1>hello why are you not workong </h1>
-<div class="owl-carousel owl-theme">
-    <div class="item"><h4>1</h4></div>
-    <div class="item"><h4>2</h4></div>
-    <div class="item"><h4>3</h4></div>
-    <div class="item"><h4>4</h4></div>
-    <div class="item"><h4>5</h4></div>
-    <div class="item"><h4>6</h4></div>
-    <div class="item"><h4>7</h4></div>
-    <div class="item"><h4>8</h4></div>
-    <div class="item"><h4>9</h4></div>
-    <div class="item"><h4>10</h4></div>
-    <div class="item"><h4>11</h4></div>
-    <div class="item"><h4>12</h4></div>
+
+
+<!-- Flickity HTML init -->
+<h1 class="text-center d-flex flex-grow-1 flex-shrink-1 justify-content-center order-1 flex-sm-grow-1 flex-sm-shrink-1 flex-md-grow-1 flex-md-shrink-1 flex-lg-grow-1 flex-lg-shrink-1 flex-xl-grow-1 flex-xl-shrink-1 aos-init aos-animate" data-aos="fade-up" data-aos-duration="950" data-aos-delay="50" data-aos-once="true" style="margin-top: 10%;margin-bottom: 3%;margin-left: 0px;font-size: 155%;">Choose Services to start new project<br></h1>
+<div class="gallery js-flickity"
+  data-flickity-options='{ "wrapAround": true }'>
+  <div  name="Java" class="gallery-cell"><img name="Java" src="assets/img/c++ (1).png" style="width: 50%;"></div>
+  <div  name="Cpp" class="gallery-cell"><img name="Cpp" src="assets/img/c++.png" style="width: 50%;"></div>
+  <div  name="Ruby" class="gallery-cell"><img name="Ruby" src="assets/img/flutter (2).png" style="width: 50%;"></div>
+  <div  name="Microsoft" class="gallery-cell"><img name="Microsoft" src="assets/img/microsoft.png" style="width: 50%;"></div>
+  <div name="Flutter" class="gallery-cell"><img  name="Flutter" src="assets/img/flutter.png" style="width: 50%;"></div>
+  <div  name="php" class="gallery-cell"><img name="php" src="assets/img/flutter (1).png" style="width: 50%;"></div>
+  <div name="python" class="gallery-cell"><img name="python"  src="assets/img/python.png" style="width: 50%;"></div>
+  <div  name="Kotlin" class="gallery-cell"><img name="Kotlin" src="assets/img/Kotlin.png" style="width: 50%;"></div>
 </div>
+<button type="button" class="btn btn-primary text-uppercase" data-toggle="modal" data-target=".bd-example-modal-lg">
+    Watch Video</button>
 <!-- -----------------------------------servics carousal code end here------------------------------------------------- -->
-    <div class="text-center social-icons" data-aos="fade-up" data-aos-duration="950" data-aos-delay="50" data-aos-once="true" style="height: 141px;margin-top: 0%;"><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-youtube"></i></a></div>
+    <div class="text-center social-icons" data-aos="fade-up" data-aos-duration="950" data-aos-delay="50" data-aos-once="true" style="height: 141px;margin-top: 10%;"><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-youtube"></i></a></div>
     <main class="page pricing-table-page"></main>
     <footer class="page-footer dark">
         <div class="container">
@@ -128,7 +136,8 @@
     <script src="assets/js/smoothproducts.min.js"></script>
     <script src="assets/js/theme.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
-    <script src="assets/js/Simple-Slider.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="assets/js/script.js"></script>
   
 </body>
 
