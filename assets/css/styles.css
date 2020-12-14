@@ -124,7 +124,7 @@ body { font-family: sans-serif; }
 
 .gallery-cell {
   width: 15%;
-  height: 200px;
+  height: 180px;
   margin-right: 10px;
   /* counter-increment: gallery-cell; */
   background-color: white;
