@@ -118,7 +118,8 @@
 body { font-family: sans-serif; }
 
 .gallery {
-  background: #EEE;
+  /* background:; */
+  background-color: white;
 }
 
 .gallery-cell {
@@ -126,6 +127,7 @@ body { font-family: sans-serif; }
   height: 200px;
   margin-right: 10px;
   /* counter-increment: gallery-cell; */
+  background-color: white;
 }
 
 /* cell number */
@@ -145,6 +147,7 @@ body { font-family: sans-serif; }
     margin-right: auto;
     margin-top: 10%;
     margin-bottom: auto;
+    background-color: white;
 }
 .changebg{
       background-color:#28df99;
