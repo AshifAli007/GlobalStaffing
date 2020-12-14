@@ -149,8 +149,9 @@ body { font-family: sans-serif; }
     margin-bottom: auto;
 }
 .changebg{
-      /* background-color:#28df99; */
-      box-shadow: 1px 0px 10px rgb(35 173 255);
+      background-color:#A0E6FF;
+      box-shadow: 1px 0px 10px #4BC7CF;
+
 }
 
 
@@ -198,4 +199,5 @@ body { font-family: sans-serif; }
 
 
 /* <!-- -----------------------------------button css ends here-------------------------------------------------  */
-
+/* <!-- -----------------------------------button css ends here-------------------------------------------------  */
+/* <!-- -----------------------------------background css ends-------------------------------------------------  */

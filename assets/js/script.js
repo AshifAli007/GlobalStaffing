@@ -108,11 +108,11 @@ $(function() {
 
 // -------------------------carousal javascript ends here-------------------------------------
 $(".gallery-cell img").on("click", function(){
-    console.log();
-    serviceName =  $(this).attr("name");
-    div = $("div[name="+serviceName+"]")[0];
-    $(div).toggleClass("changebg");
-        // $(this).toggleClass("changebg");
+    // console.log();
+    // serviceName =  $(this).attr("name");
+    // div = $("div[name="+serviceName+"]")[0];
+    // $(div).toggleClass("changebg");
+        $(this).toggleClass("changebg");
     
 });
 
