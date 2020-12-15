@@ -142,3 +142,14 @@ $(".gallery-cell img").on("click", function(){
 
 
 // -------------------------carosal javascript ends here-------------------------------------
+
+$(document).scroll(function() { 
+    if($(window).scrollTop() === 0) {
+      console.log("on top");
+      console.log($(window).scrollTop);
+      $("nav").removeClass("bg-white");
+    }else{
+        console.log("not on top")
+        $("nav").addClass("bg-white");
+    }
+ });

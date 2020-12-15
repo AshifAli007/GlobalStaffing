@@ -14,6 +14,7 @@
     text-align: center;
     padding-top: 75vh;
   }
+  
   #landing-header h1 {
     color: white;
     /* font-weight: bolder; */
@@ -68,8 +69,8 @@
   opacity: 0;
   right: 0;
   bottom: 0;
-  min-width: 100vw;
-  min-height: 100vh;
+  min-width: 100%;
+  min-height: 100%;
   /* width: 100vw;
   height: 100vh; */
 
