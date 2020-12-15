@@ -134,6 +134,7 @@ body { font-family: sans-serif; }
 @media only screen and ( max-width: 1000px ) {
   /* half-width cells for larger devices */
   .gallery-cell { width: 25%;height: 160px; }
+  #landing-header{padding-top: 80vh;}
 }
 @media only screen and ( max-width: 600px ) {
   /* half-width cells for larger devices */
