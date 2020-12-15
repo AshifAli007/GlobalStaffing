@@ -9,10 +9,10 @@
     height:auto;
   }
   #landing-header {
-    z-index: 1;
+    z-index: 100;
     position: relative;
     text-align: center;
-    padding-top: 40vh;
+    padding-top: 75vh;
   }
   #landing-header h1 {
     color: white;
@@ -46,85 +46,32 @@
     z-index: 0;
     /* animation: imageAnimation 40s linear infinite;  */
   }
-
-  .slideshow li.backImg { 
-    /* background-color: black; */
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-size: cover;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  opacity: 0;
-  z-index: 0;
-  animation: imageAnimation 40s linear infinite; 
-}
-    .slideshow li:nth-child(1) { 
-      background-image: url(https://images.unsplash.com/photo-1462556791646-c201b8241a94?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1945&q=80) 
-    }
-  .slideshow li:nth-child(2) { 
+  .slideshow li:nth-child(1) { 
     background-image: url(https://images.unsplash.com/photo-1474696100102-01b8519f06f3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);
     animation-delay: 5s; 
   }
-  .slideshow li:nth-child(3) { 
-    background-image: url(https://images.unsplash.com/photo-1489410342162-b4b300a0bb15?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80);
-    animation-delay: 10s; 
-  }
-  .slideshow li:nth-child(4) { 
-    background-image: url(https://images.unsplash.com/photo-1463171379579-3fdfb86d6285?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80);
-    animation-delay: 15s; 
-  }
-  .slideshow li:nth-child(5) { 
-    background-image: url(https://images.unsplash.com/photo-1559523182-a284c3fb7cff?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80);
-    animation-delay: 20s; 
-  }
-  .slideshow li:nth-child(6) { 
-    background-image: url(https://images.unsplash.com/photo-1507099985932-87a4520ed1d5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);
-    animation-delay: 25s; 
-  }
-  .slideshow li:nth-child(7) { 
-    background-image: url(https://images.unsplash.com/photo-1563986768609-322da13575f3?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80);
-    animation-delay: 30s; 
-  }
-  @keyframes imageAnimation { 
-    0% { 
-      opacity: 0; 
-      animation-timing-function: ease-in;
-    }
-    10% {
-      opacity: 1;
-      animation-timing-function: ease-out;
-    }
-    20% {
-      opacity: 1
-    }
-    30% {
-      opacity: 0
-    }
-    
-  }
-  /* Older browser support - .no-cssanimations class added by modernizr */
-  .no-cssanimations .slideshow li {
-      opacity: 1;
-  }
-  .videoContainer{
-    margin-bottom: 50vh;
-  }
-  @media only screen and (max-width: 650px) {
-    /* For mobile phones: */
-    .videoContainer{
-      margin-bottom: 30vh;
-    }
-  }
-  @media only screen and (max-width: 990px) {
-    /* For mobile phones: */
-    .videoContainer{
-      margin-bottom: 30vh;
-    }
-  }
  
+ /* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  position: absolute;
+  /* visibility: hidden; */
+  opacity: 1;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+.myVideo{
+  position: absolute;
+  /* visibility: hidden; */
+  opacity: 0;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+
+}
+
 
 /* - ------------------------------video css -------------------------------------------- */
 

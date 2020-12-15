@@ -1,30 +1,54 @@
 
 // -------------------------video javascript starts here-------------------------------------------
+var video = document.getElementById("myVideo");
 
-(function ($, window, document, undefined) {
-
-    'use strict';
-
-
-    $(function () {
-        app.init();
-    });
-
-})($, window, document);
-
-var app = {
-  init: function(){
-    console.log('Ready');
+// Get the button
+var btn = $(".mybtn");
+var i = 0;
+$(btn).on("click",function(){
     
-    var player = new Plyr($('#player'));
-    
-    $('.bd-example-modal-lg').on('hide.bs.modal', function (e) {
-        player.stop();
-
-      })
+    if(i%2==0){
+        $(video).trigger("play");
+        $(".myVideo").animate({
+            // left: '250px',
+            opacity: 1
+            // height: '150px',
+            // width: '150px'
+          },1000);
+        
+          $("#landing-h").animate({
+              opacity:0
+          },1000);
+        $(btn).text("Pause");
+        i = i + 1;
+        console.log("inside if");
+    }else{
+        console.log("inside else");
+        $(video).trigger("pause");
+        $(btn).text("Watch Now");
+        $(".myVideo").animate({
+            // left: '250px',
+            opacity: 0
+            // height: '150px',
+            // width: '150px'
+          },1000);
+          $("#landing-h").animate({
+            opacity:1
+        },1000);
+          i = i + 1;
+    }
+  
+});
+// Pause and play the video, and change the button text
+function myFunction() {
+  if (video.paused) {
+    video.play();
+    btn.innerHTML = "Pause";
+  } else {
+    video.pause();
+    btn.innerHTML = "Play";
   }
 }
-
 // -------------------------video javascript ends here-------------------------------------
 
 
