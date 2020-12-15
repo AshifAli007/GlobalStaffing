@@ -37,8 +37,9 @@
   .slideshow li { 
       /* background-color: black; */
     width: 100%;
-    height: 100%;
+    height: 70%;
     position: absolute;
+    /* margin-left: 10%; */
     top: 0;
     left: 0;
     background-size: cover;
@@ -177,11 +178,12 @@ body { font-family: sans-serif; }
 
 /* <!-- -----------------------------------button css ends here-------------------------------------------------  */
 h4,h1,h2{
-  font-family: 'Oswald', sans-serif;
+  font-family: serif;
+  font-weight: 600;
 }
 p{
 
-  font-family: 'Manuale', serif;
+  font-family: serif;
 }
 a{
   font-family: 'Oxanium', cursive;
