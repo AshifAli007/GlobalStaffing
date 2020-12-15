@@ -140,7 +140,7 @@ body { font-family: sans-serif; }
 @media only screen and ( max-width: 600px ) {
   /* half-width cells for larger devices */
   .gallery-cell { width: 40%;height: 140px;}
-  #landing-header{padding-top: 55vh;margin-bottom: 40%;}
+  #landing-header{padding-top: 55vh;margin-bottom: 30%;}
 }
 
 
