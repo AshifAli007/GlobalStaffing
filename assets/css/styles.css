@@ -3,11 +3,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxanium&display=swap');
 /* - ------------------------------video css -------------------------------------------- */
 
-  /* video{
+  video{
     display:block;
     max-width:100%;
-    height:100%;
-  } */
+    height:auto;
+  }
   #landing-header {
     z-index: 100;
     position: relative;
