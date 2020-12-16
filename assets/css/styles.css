@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Manuale&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oxanium&display=swap');
 /* - ------------------------------video css -------------------------------------------- */
+body{
+  background-color: grey;
+}
 
   video{
     display:block;
@@ -37,7 +40,7 @@
   .slideshow li { 
       /* background-color: black; */
     width: 100%;
-    height: 70%;
+    height: 100%;
     position: absolute;
     /* margin-left: 10%; */
     top: 0;

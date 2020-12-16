@@ -147,9 +147,9 @@ $(document).scroll(function() {
     if($(window).scrollTop() === 0) {
       console.log("on top");
       console.log($(window).scrollTop);
-      $("nav").removeClass("bg-white");
+      $("nav").removeClass("bg-grey");
     }else{
         console.log("not on top")
-        $("nav").addClass("bg-white");
+        $("nav").addClass("bg-grey");
     }
  });
